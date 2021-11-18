@@ -1,0 +1,285 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Calibri; 
+}
+
+body{
+    background: lightgray;
+}
+
+/* Whole CV Container */
+
+.container{
+    width: 820px;
+    height: 1150px;
+    background: white;
+    margin: 2px auto;
+    border: solid 1px black;
+    overflow: hidden;
+
+}
+
+
+/* Picture and Info section */
+
+.profile{
+    height: 21.7%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    overflow: hidden;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+}
+
+.image img{
+    width: 100%;
+    height: 250px;
+}
+
+.heading{
+    padding: 19px;
+}
+
+.heading p{
+    width: 24%;
+    font-size: xx-large;
+    margin-top: 25px;
+    border-bottom: 5px solid orange;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.info{
+    margin-top: 15px;
+    font-size: medium !important;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+/* bloody yellow section */
+
+.yellow{
+    /* margin-top: 10px; */
+    height: 100px;
+    background-color: #ffdf7c;
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    /* text-align: center; */
+}
+
+.black{
+    margin-top: 30px;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+.black p{
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+
+p.name{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: xxx-large;
+}
+
+/* info + experience */
+.lr-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2.06fr;
+    /* column-gap: 20px; */
+}
+
+/* left side */
+
+.left{
+    /* width: ; */
+    /* width: 33%; */
+    height:101.658%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1.3fr;
+    /* overflow: hidden; */
+}
+
+
+.column{
+    padding: 30px;
+}
+
+
+/* First Column */
+
+.c1{
+
+    background-color: #595959;
+    font-size: small;
+}
+
+.small-headings{
+    font-size: large;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.small-icons{
+    margin-top: 15px;
+    color: white;
+}
+
+.ico{
+    margin-top: 15px;
+}
+
+.ico>label{
+    margin-left: 15px;
+}
+
+
+
+
+.ico.facebook a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.facebook label{
+    margin-left: 20px !important;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.facebook label:hover{
+    color: black;
+}
+
+.address label{
+    margin-left: 20px;
+}
+
+
+/* Second Column */
+
+.c2{
+    background-color: #404040;
+    padding: 30px !important;
+}
+
+.exp{
+    margin-top: 20px;
+}
+
+
+.exp{
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+}
+
+.exp1 p{
+    font-size: medium !important;
+}
+
+.bar{
+    height: 15px;
+    border: 1px solid #ffbe03;
+    margin-top: 3px;
+
+}
+
+.fill{
+    height: 100%;
+    background-color: #ffbe03;
+    width: 90%;
+}
+
+
+/* .f1{
+    width: 90%;
+} */
+
+.f2{
+    width: 90%;
+}
+
+
+.f3{
+    width: 100%;
+}
+
+.f3{
+    width:80%;
+}
+
+
+/* .exp2.bar.fill{
+    width: 90%;
+} */
+
+
+/* Third Column */
+
+.c3{
+    border-top: 1px solid white;
+    padding: 25px;
+    background-color: black;
+}
+
+.edu{
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+    margin-top: 15px;
+}
+
+
+/* right side */
+
+.right{
+    margin-left: 20px;
+    height: 69.61%;
+    margin-right: 20px;
+}
+
+.heading.work p{
+    width: 55%;
+}
+
+.job{
+    padding: 19px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1.5fr;
+    font-weight: bold;
+}
+
+.w-date{
+    text-align: center;
+}
+
+.reference{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 30px;
+}
+
+
+
+.ref p{
+    margin-top: 1px;
+    width: 100%;
+}
+
+.ref-text{
+    margin-top: 35px;
+    font-weight: bold;
+}
